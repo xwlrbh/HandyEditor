@@ -1,1 +1,47 @@
-
+.HandyEditor{
+	border : solid 1px #ddd;
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+}
+.HandyEditor_menu{
+	border : solid 1px #ddd;
+	padding: 0px 5px;
+	background-color: #f2f2f2;
+	border-radius: 6px 6px 0px 0px;
+	-moz-border-radius: 6px 6px 0px 0px;
+	-webkit-border-radius: 6px 6px 0px 0px;
+}
+.HandyEditor_menu_item,.HandyEditor_menu_item:visited{
+	color: #fff;
+	background-color: #2981e4;
+	border-radius: 6px;
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+	border-bottom: 1px solid rgba(0,0,0,0.25);
+	padding: 5px 5px;
+	margin: 10px 5px;
+}
+.HandyEditor_menu_item:hover{
+	background-color: #2575cf;
+}
+.HandyEditor_menu_item:active{
+	background-color: #88b5e8;
+}
+.HandyEditor_menu_item_valid{
+	background-color: #88b5e8;
+}
+.HandyEditor_menu_gap{
+	border-color: #ddd;
+}
+.HandyEditor_editor{
+	border : solid 1px #ddd;
+	background-color: #fff;
+}
