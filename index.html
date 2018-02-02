@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HandyEditor</title>
+    <style type="text/css">
+    small{font-size: 14px;color: #aaa;}
+    pre{padding: 5px;background-color: #eee;}
+    .textcenter{text-align: center;}
+    </style>
+  </head>
+  <body>
+    <h1>HandyEditor <small>一款十分轻便且使用方便的所见即所得富文本web编辑器，由Catfish(鲶鱼) CMS官方开发</small></h1>
+
+    <textarea id="editor" name="editor" rows="5" style="display: none;"></textarea>
+    <br>
+    <button onclick="getHtml()">获取HTML</button>&nbsp;&nbsp;
+    <button onclick="getText()">获取纯文本</button>
+    <br><br>
+    <h4>使用方法：</h4>
+    <h5>1、引入HandyEditor的javaScript文件</h5>
+    <pre>&lt;script src="HandyEditor.min.js"&gt;&lt;/script&gt;</pre>
+    <h5>2、在您的javaScript代码中添加HandyEditor代码</h5>
+    <pre>var he = HE.getEditor('editor');//其中的editor是文本输入框的id</pre>
+    <h5>3、获取编辑器中的内容</h5>
+    <pre>he.getHtml();//获取HTML代码</pre>
+    <pre>he.getText();//获取纯文本</pre>
+    <br>
+    更多高级用法请访问<a href="http://www.catfish-cms.com" target="_blank">Catfish(鲶鱼) CMS官方网站</a>或者<a href="http://he.catfish-cms.com" target="_blank">HandyEditor</a>详情页
+    <br>
+
+    <br><br>
+    <div class="textcenter"><a href="http://www.catfish-cms.com" target="_blank">官方网站</a> | <a href="http://he.catfish-cms.com" target="_blank">HandyEditor</a></div>
+    <br>
+
+    <script src="HandyEditor.min.js"></script>
+    <script type="text/javascript">
+      var he = HE.getEditor('editor');
+      function getHtml(){
+        alert(he.getHtml());
+      }
+      function getText(){
+        alert(he.getText());
+      }
+    </script>
+  </body>
+</html>
