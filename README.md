@@ -10,11 +10,18 @@ Welcome to [HandyEditor](http://he.catfish-cms.com)
 
 2, add HandyEditor code in your javaScript code
 
-    var he = HE.getEditor('editor');//The editor is the text area id
+    var he = HE.getEditor('editor');
+
+*The editor is the textarea id*
 
 3, get the contents of the editor
 
-    he.getHtml();//Get the HTML code
-    he.getText();//Get plain text
+    he.getHtml();
+
+*Get the HTML code*
+
+    he.getText();
+
+*Get plain text*
 
 For more advanced usage please visit [Catfish CMS](http://www.catfish-cms.com) official website or [HandyEditor details page](http://he.catfish-cms.com)
