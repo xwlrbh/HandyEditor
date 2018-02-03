@@ -24,4 +24,6 @@ Welcome to [HandyEditor](http://he.catfish-cms.com)
 
 *Get plain text*
 
+----------
+
 For more advanced usage please visit [Catfish CMS](http://www.catfish-cms.com) official website or [HandyEditor details page](http://he.catfish-cms.com)
