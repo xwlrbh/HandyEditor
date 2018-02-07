@@ -53,5 +53,7 @@ var lang = {
 	cbefore : 'HandyEditor is a WYSIWYG rich text web editor from ',
 	cafter : ' that is lightweight, easy to use, customizable, multi-language supported and user-focused.',
 	basecolor : 'Standard color',
-	topicolor : 'Theme color'
+	topicolor : 'Theme color',
+	uploadImage : 'Upload image',
+	uploadImageError : 'upload failed'
 };
