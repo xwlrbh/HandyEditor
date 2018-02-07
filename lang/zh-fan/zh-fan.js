@@ -53,5 +53,7 @@ var lang = {
 	cbefore : 'HandyEditor是由',
 	cafter : '出品的所見即所得富文本web編輯器，具有輕量，使用便利，可定制，多語言支持，注重用戶體驗等特點。',
 	basecolor : '標準顏色',
-	topicolor : '主題顏色'
+	topicolor : '主題顏色',
+	uploadImage : '上傳圖片',
+	uploadImageError : '上傳失敗'
 };
