@@ -20,6 +20,7 @@ var lang = {
 	outdent : 'Reduce indentation',
 	link : 'Link',
 	textBlock : 'Text block',
+	code : 'code',
 	unlink : 'Unlink',
 	selectAll : 'Select all',
 	removeFormat : 'Removal format',
