@@ -20,6 +20,7 @@ var lang = {
 	outdent : '減少縮進',
 	link : '鏈接',
 	textBlock : '文本塊',
+	code : '程序代碼',
 	unlink : '取消鏈接',
 	selectAll : '全選',
 	removeFormat : '去除格式',
