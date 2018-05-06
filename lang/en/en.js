@@ -10,6 +10,7 @@ var lang = {
 	underline : 'Underline',
 	fontSize : 'Font size',
 	fontName : 'Font name',
+	paragraph : 'paragraph',
 	color : 'Font color',
 	backColor : 'Background color',
 	center : 'Center',
@@ -141,5 +142,7 @@ var lang = {
 	shengqi : 'pissed off',
 	beiza : 'Smashed',
 	xiasha : 'Scared silly',
-	suiyitu : 'Random spit'
+	suiyitu : 'Random spit',
+	biaoti : 'title',
+	zhengwen : 'text'
 };
