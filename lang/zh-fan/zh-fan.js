@@ -10,6 +10,7 @@ var lang = {
 	underline : '下劃線',
 	fontSize : '字體大小',
 	fontName : '字體名稱',
+	paragraph : '段落',
 	color : '字體顏色',
 	backColor : '背景顏色',
 	center : '居中',
@@ -141,5 +142,7 @@ var lang = {
 	shengqi : '生氣',
 	beiza : '被砸',
 	xiasha : '嚇傻',
-	suiyitu : '隨意吐'
+	suiyitu : '隨意吐',
+	biaoti : '標題',
+	zhengwen : '正文'
 };
