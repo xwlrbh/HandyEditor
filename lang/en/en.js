@@ -144,5 +144,6 @@ var lang = {
 	xiasha : 'Scared silly',
 	suiyitu : 'Random spit',
 	biaoti : 'title',
-	zhengwen : 'text'
+	zhengwen : 'text',
+	html : 'html code'
 };
