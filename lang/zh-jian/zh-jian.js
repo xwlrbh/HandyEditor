@@ -144,5 +144,6 @@ var lang = {
 	xiasha : '吓傻',
 	suiyitu : '随意吐',
 	biaoti : '标题',
-	zhengwen : '正文'
+	zhengwen : '正文',
+	html : 'html代码'
 };
