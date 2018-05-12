@@ -38,6 +38,9 @@
 .HandyEditor_menu_item_valid{
 	background-color: #88b5e8;
 }
+.HandyEditor_menu_item_invalid{
+	background-color: #acbbcc;
+}
 .HandyEditor_menu_gap{
 	border-color: #ddd;
 }
